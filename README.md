@@ -163,6 +163,16 @@ The ultimate objective: **redefine AI's role in the EDA industry** — making PC
 - [ ] Full public release with model weights
 
 ---
+## 🧬 The ClokArch Team
+
+CLOKAI is an ambitious project driven by decentralized innovation.
+
+| Avatar | Contributor | Role | Focus |
+| :---: | :--- | :--- | :--- |
+| <img src="https://github.com/ghosthets.png" width="50px;"/> | **[Ghosthets](https://github.com/ghosthets)** | **Lead Architect** | ClokArch Core, Founder's Logic, SNN-KAN Fusion |
+| <img src="https://github.com/clokai.png" width="50px;"/> | **CLOKAI Org** | **Infrastructure** | Dataset Management, DDP Training Pipelines |
+
+> **Founder's Note:** CLOKAI was born from the need to bridge the gap between LLM creativity and hardware precision. Every spike in our SNN is a step toward autonomous PCB design.
 
 ## 📄 License
 
