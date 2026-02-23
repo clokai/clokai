@@ -82,7 +82,7 @@ Embedded within CLOKAI's latent space is a **Symbolic Verifier** — a rule-enfo
 |---|---|
 | 🔌 **Autonomous Netlist Synthesis** | Translate natural language requirements into Altium/KiCad-compatible JSON netlists — zero manual schematic entry |
 | 🎯 **Component Optimization** | Infer optimal resistor, capacitor, and inductor values from hidden design constraints and circuit context |
-| 🌐 **Hinglish Technical Reasoning** | Native-level comprehension and explanation of complex electronics engineering in **English Only** |
+| 🌐 **English Technical Reasoning** | Native-level comprehension and explanation of complex electronics engineering in **English Only** |
 | 🔍 **Hardware Debugging** | Detect design-rule violations, potential short circuits, and logic conflicts through pure **Logical Inference** — no simulation required |
 
 ---
