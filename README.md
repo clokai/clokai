@@ -13,14 +13,9 @@
 [![Parameters](https://img.shields.io/badge/Parameters-~1.5B--1.8B-blue?style=for-the-badge&logo=brain)](https://github.com)
 [![Training](https://img.shields.io/badge/Training-2×%20NVIDIA%20T4%20DDP-76b900?style=for-the-badge&logo=nvidia)](https://github.com)
 [![Precision](https://img.shields.io/badge/Precision-FP16-orange?style=for-the-badge)](https://github.com)
-
-> *"Not just a language model. A logic engine that thinks in circuits."*
-
 </div>
 
 ---
-
-## ⚡ Overview
 
 **CLOKAI** is an experimental heavyweight language model (~1.5B–1.8B parameters), purpose-engineered for the frontier of **Electronic Design Automation (EDA)** and **PCB Logic Synthesis**. Where conventional LLMs predict tokens, CLOKAI extracts logic — combining the raw expressivity of Neuromorphic Computing with the mathematical precision of Non-linear Function Approximation.
 
