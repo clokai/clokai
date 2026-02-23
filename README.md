@@ -39,7 +39,7 @@ CLOKAI is a **ClokArch**: a three-architecture fusion that transcends the limita
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    CLOKAI ClokArch-ENGINE                  │
+│                 CLOKAI ClokArch-ENGINE                  │
 │                                                         │
 │   ┌───────────────────────────────────────────────┐     │
 │   │  [1] KAN-Integrated Backbone                  │     │
