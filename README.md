@@ -41,23 +41,23 @@ CLOKAI is a **Hybrid Chimera**: a three-architecture fusion that transcends the 
 ┌─────────────────────────────────────────────────────────┐
 │                    CLOKAI GHOST-ENGINE                  │
 │                                                         │
-│   ┌───────────────────────────────────────────────┐    │
-│   │  [1] KAN-Integrated Backbone                  │    │
-│   │      Kolmogorov-Arnold Networks               │    │
-│   │      Learnable Spline Activations             │    │
-│   └───────────────────────────────────────────────┘    │
-│                         ↓                              │
-│   ┌───────────────────────────────────────────────┐    │
-│   │  [2] Temporal Spiking Attention (TASA)        │    │
-│   │      SNN Layers + Async Firing Emulation      │    │
-│   │      Clock-Domain Temporal Processing         │    │
-│   └───────────────────────────────────────────────┘    │
-│                         ↓                              │
-│   ┌───────────────────────────────────────────────┐    │
-│   │  [3] Neuro-Symbolic Logic Verifier            │    │
-│   │      KCL / KVL / Ohm's Law Validation        │    │
-│   │      Latent-Space Constraint Enforcement      │    │
-│   └───────────────────────────────────────────────┘    │
+│   ┌───────────────────────────────────────────────┐     │
+│   │  [1] KAN-Integrated Backbone                  │     │
+│   │      Kolmogorov-Arnold Networks               │     │
+│   │      Learnable Spline Activations             │     │
+│   └───────────────────────────────────────────────┘     │
+│                         ↓                               │
+│   ┌───────────────────────────────────────────────┐     │
+│   │  [2] Temporal Spiking Attention (TASA)        │     │
+│   │      SNN Layers + Async Firing Emulation      │     │
+│   │      Clock-Domain Temporal Processing         │     │
+│   └───────────────────────────────────────────────┘     │
+│                         ↓                               │
+│   ┌───────────────────────────────────────────────┐     │
+│   │  [3] Neuro-Symbolic Logic Verifier            │     │
+│   │      KCL / KVL / Ohm's Law Validation         │     │
+│   │      Latent-Space Constraint Enforcement      │     │
+│   └───────────────────────────────────────────────┘     │
 └─────────────────────────────────────────────────────────┘
 ```
 
