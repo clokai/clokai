@@ -8,11 +8,6 @@
 ╚██████╗███████╗╚██████╔╝██║  ██╗██║  ██║██║
  ╚═════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 ```
-
-# CLOKAI — The PCB Synthesis Engine built on ClokArch
-
-**Circuit Logic Oriented Knowledge AI**
-
 [![Status](https://img.shields.io/badge/Status-Pre--Release%20Alpha-red?style=for-the-badge&logo=rocket)](https://github.com)
 [![Architecture](https://img.shields.io/badge/Architecture-ClokArch%20System-blueviolet?style=for-the-badge&logo=buffer)](https://github.com)
 [![Parameters](https://img.shields.io/badge/Parameters-~1.5B--1.8B-blue?style=for-the-badge&logo=brain)](https://github.com)
