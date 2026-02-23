@@ -172,8 +172,6 @@ CLOKAI is an ambitious project driven by decentralized innovation.
 | <img src="https://github.com/ghosthets.png" width="50px;"/> | **[Ghosthets](https://github.com/ghosthets)** | **Lead Architect** | ClokArch Core, Founder's Logic, SNN-KAN Fusion |
 | <img src="https://github.com/clokai.png" width="50px;"/> | **CLOKAI** | **Infrastructure** | Dataset Management, DDP Training Pipelines |
 
-> **Founder's Note:** CLOKAI was born from the need to bridge the gap between LLM creativity and hardware precision. Every spike in our SNN is a step toward autonomous PCB design.
-
 ## 📄 License
 
 This project is currently **proprietary and pre-release**. Licensing terms will be announced alongside the public release.
@@ -185,7 +183,4 @@ This project is currently **proprietary and pre-release**. Licensing terms will 
 ```
 Made with @Ghosthets. Powered by ClokAI.
 ```
-
-*CLOKAI — Where Neuromorphic Circuits Meet the Language of Design.*
-
 </div>
