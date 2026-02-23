@@ -22,55 +22,7 @@
 This is not a fine-tuned chatbot. This is a *ClokArch** — a domain-native intelligence forged at the intersection of three revolutionary neural paradigms, designed to make PCB design as intuitive as a conversation.
 
 ---
-
-## 🧠 Model Architecture — *ClokArch*
-
-CLOKAI is a **ClokArch**: a three-architecture fusion that transcends the limitations of standard transformer-based LLMs.
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                 CLOKAI ClokArch-ENGINE                  │
-│                                                         │
-│   ┌───────────────────────────────────────────────┐     │
-│   │  [1] KAN-Integrated Backbone                  │     │
-│   │      Kolmogorov-Arnold Networks               │     │
-│   │      Learnable Spline Activations             │     │
-│   └───────────────────────────────────────────────┘     │
-│                         ↓                               │
-│   ┌───────────────────────────────────────────────┐     │
-│   │  [2] Temporal Spiking Attention (TASA)        │     │
-│   │      SNN Layers + Async Firing Emulation      │     │
-│   │      Clock-Domain Temporal Processing         │     │
-│   └───────────────────────────────────────────────┘     │
-│                         ↓                               │
-│   ┌───────────────────────────────────────────────┐     │
-│   │  [3] Neuro-Symbolic Logic Verifier            │     │
-│   │      KCL / KVL / Ohm's Law Validation         │     │
-│   │      Latent-Space Constraint Enforcement      │     │
-│   └───────────────────────────────────────────────┘     │
-└─────────────────────────────────────────────────────────┘
-```
-
-### 1. KAN-Integrated Backbone *(Kolmogorov-Arnold Networks)*
-
-Standard Multi-Layer Perceptrons have been **surgically replaced** with KAN layers — networks built on learnable activation functions defined by B-splines. Instead of fixed activation curves, every neuron in CLOKAI's backbone adapts its own mathematical function during training.
-
-> **Expert Insight:** This grants CLOKAI the ability to **mathematically resolve** hardware logic and parametric circuit constraints — not merely predict text patterns associated with them. The model doesn't guess component values; it derives them.
-
-### 2. Temporal Spiking Attention — *TASA*
-
-Integrated Spiking Neural Network (SNN) layers emulate the brain's asynchronous firing mechanism at the attention level. The **Time-Aware Spiking Attention (TASA)** mechanism processes information in discrete temporal pulses rather than continuous dense activations.
-
-> **Expert Insight:** TASA enables CLOKAI to process **high-frequency signal integrity** and **clock-domain logic** with genuine temporal accuracy — critical for designs where timing is not a suggestion but a constraint.
-
-### 3. Neuro-Symbolic Logic Verifier
-
-Embedded within CLOKAI's latent space is a **Symbolic Verifier** — a rule-enforcement layer that intercepts generated outputs and validates them against the immutable laws of electronics: Ohm's Law, Kirchhoff's Current Law (KCL), and Kirchhoff's Voltage Law (KVL).
-
-> **Expert Insight:** This creates a **self-correcting synthesis loop**. CLOKAI doesn't just generate netlists — it generates netlists that *pass physical law verification* before they ever leave the model.
-
 ---
-
 ## 🛠️ Key Capabilities
 
 | Capability | Description |
@@ -95,22 +47,6 @@ Embedded within CLOKAI's latent space is a **Symbolic Verifier** — a rule-enfo
 | **Training Hardware** | 2× NVIDIA T4 GPUs (Distributed Data Parallel) |
 
 ---
-
-## 🚀 Training & Optimization — *The Founder's Secret*
-
-CLOKAI was trained under a bespoke optimization regime on **2× NVIDIA T4 GPUs** in **Distributed Data Parallel (DDP)** mode. Every training decision was made to maximize logic extraction over pattern memorization.
-
-### Entropy Maximization
-The data loader employs **high-entropy shuffling** and deliberate **hardware-netlist variability injection**. The training distribution was engineered to be maximally non-repetitive, forcing the model to generalize circuit logic rather than overfit to specific design signatures.
-
-### Warm Restart Schedule
-A **Cosine Annealing with Warm Restarts** (SGDR) learning rate schedule was used to aggressively break loss plateaus. Each restart resets the learning rate to escape local minima, progressively narrowing the exploration radius.
-
-### Memory Architecture
-Training a ~1.7B parameter ClokArch architecture on constrained VRAM required surgical memory management:
-- **Activation Checkpointing** — recompute forward activations during backprop instead of storing them
-- **Bucketed Gradient Views** — DDP gradient communication bucketed for optimal bandwidth utilization
-- **FP16 Mixed Precision** — half-precision forward passes with FP32 master weights for numerical stability
 
 ```
 Memory Optimization Stack:
@@ -139,7 +75,7 @@ Memory Optimization Stack:
 
 CLOKAI is in **Pre-Release Alpha**. The architecture is stable; the mission is not yet complete. Current development priorities include expanding the training corpus, refining the Neuro-Symbolic Verifier's constraint ruleset, and optimizing inference latency for real-time PCB design workflows.
 
-The ultimate objective: **redefine AI's role in the EDA industry** — making PCB design as natural and accessible as talking to a colleague.
+The ultimate objective: **redefine AI's role in the EDA industry**  making PCB design as natural and accessible as talking to a colleague.
 
 ---
 
