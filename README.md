@@ -156,10 +156,10 @@ The ultimate objective: **redefine AI's role in the EDA industry** — making PC
 ## 🔭 Roadmap
 
 - [ ] Expand domain-specific tokenizer vocabulary (VHDL, Verilog, SPICE)
-- [ ] Release quantized GGUF variants for edge deployment
+- [ ] Release quantized variants for edge deployment
 - [ ] Public benchmark suite against baseline EDA-LLMs
 - [ ] REST API + KiCad plugin integration
-- [ ] Multilingual expansion beyond Hinglish (Tamil-English, Bangla-English)
+- [ ] Multilingual expansion beyond English
 - [ ] Full public release with model weights
 
 ---
