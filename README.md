@@ -9,12 +9,12 @@
  ╚═════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
 ```
 
-# CLOKAI — The Spiking-KAN PCB Synthesis Engine
+# CLOKAI — The PCB Synthesis Engine built on ClokArch
 
 **Circuit Logic Oriented Knowledge AI**
 
 [![Status](https://img.shields.io/badge/Status-Pre--Release%20Alpha-red?style=for-the-badge&logo=rocket)](https://github.com)
-[![Architecture](https://img.shields.io/badge/Architecture-Hybrid%20SNN--KAN-blueviolet?style=for-the-badge&logo=buffer)](https://github.com)
+[![Architecture](https://img.shields.io/badge/Architecture-ClokArch%20System-blueviolet?style=for-the-badge&logo=buffer)](https://github.com)
 [![Parameters](https://img.shields.io/badge/Parameters-~1.5B--1.8B-blue?style=for-the-badge&logo=brain)](https://github.com)
 [![Training](https://img.shields.io/badge/Training-2×%20NVIDIA%20T4%20DDP-76b900?style=for-the-badge&logo=nvidia)](https://github.com)
 [![Precision](https://img.shields.io/badge/Precision-FP16-orange?style=for-the-badge)](https://github.com)
@@ -29,17 +29,17 @@
 
 **CLOKAI** is an experimental heavyweight language model (~1.5B–1.8B parameters), purpose-engineered for the frontier of **Electronic Design Automation (EDA)** and **PCB Logic Synthesis**. Where conventional LLMs predict tokens, CLOKAI extracts logic — combining the raw expressivity of Neuromorphic Computing with the mathematical precision of Non-linear Function Approximation.
 
-This is not a fine-tuned chatbot. This is a **Ghost-Engine** — a domain-native intelligence forged at the intersection of three revolutionary neural paradigms, designed to make PCB design as intuitive as a conversation.
+This is not a fine-tuned chatbot. This is a *ClokArch** — a domain-native intelligence forged at the intersection of three revolutionary neural paradigms, designed to make PCB design as intuitive as a conversation.
 
 ---
 
-## 🧠 Model Architecture — *The Ghost-Engine*
+## 🧠 Model Architecture — *ClokArch*
 
-CLOKAI is a **Hybrid Chimera**: a three-architecture fusion that transcends the limitations of standard transformer-based LLMs.
+CLOKAI is a **ClokArch**: a three-architecture fusion that transcends the limitations of standard transformer-based LLMs.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    CLOKAI GHOST-ENGINE                  │
+│                    CLOKAI ClokArch-ENGINE                  │
 │                                                         │
 │   ┌───────────────────────────────────────────────┐     │
 │   │  [1] KAN-Integrated Backbone                  │     │
@@ -87,7 +87,7 @@ Embedded within CLOKAI's latent space is a **Symbolic Verifier** — a rule-enfo
 |---|---|
 | 🔌 **Autonomous Netlist Synthesis** | Translate natural language requirements into Altium/KiCad-compatible JSON netlists — zero manual schematic entry |
 | 🎯 **Component Optimization** | Infer optimal resistor, capacitor, and inductor values from hidden design constraints and circuit context |
-| 🌐 **Hinglish Technical Reasoning** | Native-level comprehension and explanation of complex electronics engineering in **Hybrid Hindi-English (Hinglish)** |
+| 🌐 **Hinglish Technical Reasoning** | Native-level comprehension and explanation of complex electronics engineering in **English Only** |
 | 🔍 **Hardware Debugging** | Detect design-rule violations, potential short circuits, and logic conflicts through pure **Logical Inference** — no simulation required |
 
 ---
@@ -97,7 +97,7 @@ Embedded within CLOKAI's latent space is a **Symbolic Verifier** — a rule-enfo
 | Parameter | Specification |
 |---|---|
 | **Parameter Count** | ~1.5 Billion – 1.8 Billion |
-| **Architecture** | Hybrid SNN-KAN Transformer |
+| **Architecture** | ClokArch |
 | **Hidden Dimension** | 1024 |
 | **Depth** | 16 Layers |
 | **Training Precision** | FP16 with Gradient Checkpointing |
@@ -117,7 +117,7 @@ The data loader employs **high-entropy shuffling** and deliberate **hardware-net
 A **Cosine Annealing with Warm Restarts** (SGDR) learning rate schedule was used to aggressively break loss plateaus. Each restart resets the learning rate to escape local minima, progressively narrowing the exploration radius.
 
 ### Memory Architecture
-Training a ~1.7B parameter hybrid architecture on constrained VRAM required surgical memory management:
+Training a ~1.7B parameter ClokArch architecture on constrained VRAM required surgical memory management:
 - **Activation Checkpointing** — recompute forward activations during backprop instead of storing them
 - **Bucketed Gradient Views** — DDP gradient communication bucketed for optimal bandwidth utilization
 - **FP16 Mixed Precision** — half-precision forward passes with FP32 master weights for numerical stability
@@ -173,7 +173,7 @@ This project is currently **proprietary and pre-release**. Licensing terms will 
 <div align="center">
 
 ```
-Made with Ghost-Tech. Powered by Founder's Logic.
+Made with @Ghosthets. Powered by ClokAI.
 ```
 
 *CLOKAI — Where Neuromorphic Circuits Meet the Language of Design.*
